@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+h1{
+    text-decoration: underline whitesmoke 1px;
+}
+h1,h2 {
+    color:rgba(245, 245, 245, 0.556);
+}
+p{
+    color:floralwhite;
+    letter-spacing: 2px;
+}
+p:nth-child(3n){
+    padding-left: 20%;
+}
+
+p:nth-child(2n-1){
+    padding-left: 10%;
+}
+/*
+
+I dont know if I like all this nth child stuff so I will most likely change it in a future
+update...
+
+*/
+a{
+    text-decoration: none;
+    color:rgb(240, 201, 142);
+}
